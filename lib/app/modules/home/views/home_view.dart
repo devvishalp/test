@@ -84,6 +84,7 @@ class HomeView extends GetView<HomeController> {
       print('Error: ${response.statusCode}');
     }
   }
+
 }
 
 class EncryptionService {
